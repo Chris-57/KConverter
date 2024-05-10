@@ -14,9 +14,9 @@ function submitUrl() {
 
     // Configure the AWS region and credentials
     AWS.config.update({
-        region: process.env.AWS_REGION,
-        accessKeyId: process.env.AWS_ACCESS_KEY_ID,
-        secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY
+        region: process.env.REGIONKEY,
+        accessKeyId: process.env.KEY,
+        secretAccessKey: process.env.AKEY
     });
 
     const lambda = new AWS.Lambda();
@@ -42,9 +42,9 @@ function submitUrl() {
 function refreshLinks() {
     // Configure the AWS region and credentials
     AWS.config.update({
-        region: process.env.AWS_REGION, // replace with your preferred region
-        accessKeyId: process.env.AWS_ACCESS_KEY_ID, // replace with your access key ID
-        secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY // replace with your secret access key
+        region: process.env.REGIONKEY, // replace with your preferred region
+        accessKeyId: process.env.KEY, // replace with your access key ID
+        secretAccessKey: process.env.AKEY // replace with your secret access key
     });
 
     const lambda = new AWS.Lambda();
