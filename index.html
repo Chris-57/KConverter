@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Karaoke Converter</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.283.1.min.js"></script> <!-- Include the AWS SDK -->
+</head>
+<body>
+    <h1>KARAOKE CONVERTER</h1>
+    <input type="text" id="urlInput" placeholder="Enter SoundCloud URL here">
+    <button id="submit">KARAOKE MY PLAYLIST!</button>
+    <p id="popup" style="display: none;">We received your playlist, we are now karaoke-ing, please wait...</p>
+    <button id="refresh">REFRESH</button>
+    <table id="linksTable">
+        <tr>
+            <th>Playlist Links</th>
+        </tr>
+        <!-- Playlist links will be dynamically inserted here -->
+    </table>
+    <footer>
+        <p>Designed by Christopher Si Meumann</p>
+        <p><a href="https://www.linkedin.com/in/christopher-meumann-800587248/" target="_blank">LinkedIn</a></p>
+        <p>© 2024</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

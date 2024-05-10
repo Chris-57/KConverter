@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+#urlInput {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: large;
+}
+
+#submit {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 20px auto;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+}
+
+#popup {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+
+#refresh {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 20px auto;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+}
+
+#linksTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#linksTable th, #linksTable td {
+    border: 1px solid white;
+    padding: 15px;
+    text-align: left;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px; /* Adjust this value to move the footer down */
+}
+
